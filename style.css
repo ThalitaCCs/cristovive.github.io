@@ -1,0 +1,70 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #4a90e2; /* azul suave */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+/* Menu de navegação */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Seções */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Botões */
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+/* Produtos */
+.produto {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  width: 200px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.produto img {
+  max-width: 100%;
+  border-radius: 5px;
+}

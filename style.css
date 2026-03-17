@@ -1,38 +1,93 @@
-.container {
-    background-color: #f0f4f8; /* Soft blue background */
-    color: #333; /* Text color */
-    font-family: 'Arial', sans-serif; /* Typography */
-    padding: 20px;
-    border-radius: 8px;
+/* Fonte moderna */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f0f4ff, #ffffff);
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-h1, h2, h3 {
-    color: #5c6bc0; /* Soft purple color */
+/* Cabeçalho */
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #f1c40f;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #e67e22;
+}
+
+/* Seções */
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+/* Botões */
 button {
-    background-color: #8e24aa; /* Soft purple button */
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: 0.3s;
 }
 
 button:hover {
-    background-color: #ab47bc; /* Darker purple on hover */
+  background: #2ecc71;
 }
 
-.input {
-    border: 1px solid #ccc; /* Light gray border */
-    padding: 10px;
-    border-radius: 4px;
-    width: 100%;
+/* Produtos */
+#listaProdutos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-footer {
-    background-color: #eeeeee; /* Light gray footer */
-    padding: 10px;
-    text-align: center;
+.produto {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 15px;
+  width: 250px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.produto:hover {
+  transform: scale(1.05);
+}
+
+.produto img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.produto h3 {
+  margin: 10px 0;
+  color: #2c3e50;
 }
